@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  ruby_design_patterns:
+    build:
+      context: .
+    container_name: ruby_design_patterns
+    volumes:
+      - .:/app
